@@ -5,13 +5,10 @@ JavaScript is a scripting or programming language that allows you to implement c
 
 # How Scripting Language Works?
 
-JavaScript is either embedded directly into a web page or referenced via a separate .js file. When a user visits that web page, their browser will run the script along with the HTML and CSS code ‒ creating a functional page displayed via the browser tab.
+Scripting languages are a type of programming language. They're called "scripting" because they are often used to write scripts or sets of instructions that tell a computer what to do. These instructions are usually written in a human-readable form, making it easier for programmers to write and maintain code.
 
-The script is downloaded to the visitors’ machines and processed there. This differs from a server-side language, in which the server processes the script before sending it to the browser.
 
-When encountering a block of JavaScript code, a web browser will process it from top to bottom. Since it’s order-sensitive, make sure to reference the objects or variables within the block first before modifying them. Having variables with no values will result in an undefined error.
-
-# What makes JavaScript so powerful?
+# What is V8 Engine and How it makes JavaScript so powerful?
 
 V8 is the name of the JavaScript engine that powers Google Chrome. It's the thing that takes our JavaScript and executes it while browsing with Chrome. V8 provides the runtime environment in which JavaScript executes. The DOM and the other Web Platform APIs are provided by the browser.
 
@@ -37,14 +34,9 @@ In the basic terms, V8 engine:
 ![1-guwinzljjvtdpdet6o](https://github.com/prakashsfbu/Week2-JavaScript/assets/144198518/f9773ad3-2710-43c5-a927-22c7475df02a)
 
 
-explain how scripting language works and how javascript works under the hood
-ChatGPT
-Sure! Let's dive a bit deeper into how scripting languages like JavaScript work under the hood.
 
-Scripting Languages:
-Scripting languages are a type of programming language. They're called "scripting" because they are often used to write scripts or sets of instructions that tell a computer what to do. These instructions are usually written in a human-readable form, making it easier for programmers to write and maintain code.
 
-How JavaScript Works Under the Hood:
+# How JavaScript Works Under the Hood:
 
 Parsing: When you write JavaScript code, your web browser or the JavaScript engine in other environments first needs to understand what your code means. This process is called parsing. It reads your code and checks if it follows the rules of the JavaScript language.
 
