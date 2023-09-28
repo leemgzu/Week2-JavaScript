@@ -40,10 +40,10 @@ console.log(numbers); // [9, 7, 4, 3, 2, 1]
 
 
 
------
+
   // better way to do it
 
-  const numbers = [4, 2, 7, 1, 9, 3];
+const numbers = [4, 2, 7, 1, 9, 3];
 numbers.sort((a, b) => a - b); // a--> b == ascending and  b-a  ==descending 
 console.log(numbers); // [1, 2, 3, 4, 7, 9]
 

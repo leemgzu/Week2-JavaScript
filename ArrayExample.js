@@ -1,11 +1,12 @@
 const arr = [1,2,3,4,5,6]
 // Traditional Approach
-const hasEvensTraditionalFunction(arr) {
-for(let i = 0; i< arr.length; i++){
-    if(arr[i] % 2 === 0){
-        return true
+const hasEvensTraditionalFunction = (arr) => {
+    for(let i = 0; i< arr.length; i++){
+        if(arr[i] % 2 === 0){
+            return true
+        }
+        return false
     }
-    return false
 }
 
 
@@ -26,13 +27,25 @@ console.log(hasEvens(arr))
 
   const a = ['a', 'b', 'c', 'a'] // a is repeated twice
   // you can fix this by using Array.filter() 
-const uniq = arr.filter((item,index) => 
+const uniq = a.filter((item,index) => 
 a.indexOf(item) === index
 )
 console.log(uniq)
 
-const unique = [...new Set(arr] // set is the obj in js that has unique properties
+const unique = [...new Set(arr)] // set is the obj in js that has unique properties
 
 
 //  Referance: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+
+a.forEach((item) => {
+    console.log(`The current item is : ${item}`);
+})
+
+const b = a.map((abc, ting) => {
+    return {
+        letter: abc,
+        index: ting,
+    }
+})

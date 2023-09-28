@@ -27,7 +27,7 @@ console.log('%c hello', 'color: red; font-weight: bold'  )
 console.table([person1, person2, person3])
 
 //  ------------------------------------------------------------
-// console.time('looper') , console.timeEnd('looper')
+console.time('looper') , console.timeEnd('looper')
 
 
 //check where it was called and what defined it 
@@ -39,7 +39,7 @@ const deleteMe = () => console.trace(' delete it once!')
 deleteMe()
 deleteMe()
 // with console.trace(), you know on which file your function has been called.
-------------------------------
+// ------------------------------
 
 // destructuring
 
@@ -63,7 +63,7 @@ const {name, age, meal} = human
 		return `Feed ${name} of age ${age} ${meal} `
 
 }
---------------------------
+// --------------------------
 
 // template-literals
 "hello" +name+ "welcome to this class"
@@ -79,7 +79,7 @@ console.log(mergedArray); // [1, 2, 3, 4, 5, 6]
 // destructuring 
 // renaming the variable
 const myPerson = { name: 'Prakash', location: 'Bay Area', username: 'prakash123' }
-const { name, location: home , username} = myperson
+const { name, location: home , username} = myPerson
 console.log(home)
 // traditional
 

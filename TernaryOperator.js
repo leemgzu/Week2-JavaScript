@@ -30,9 +30,8 @@ function greet(name) {
 //downfall of this || 
 
 function badTimeOut(timeout) {
-  setTimeout(() => {console.log("hello")}, timeout ||--?? 1000); // 
+  setTimeout(() => {console.log("hello")}, timeout || 1000); // 
 
 }
 badTimeout(0) // js takes 0 as false 
 
--------------
